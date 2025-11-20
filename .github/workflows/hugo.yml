@@ -3,7 +3,7 @@ name: Deploy Hugo to GitHub Pages
 on:
   push:
     branches:
-      - main  # 如果你是 master 就改成 master
+      - main    # 如果你的 branch 是 master，就改成 master
   pull_request:
 
 permissions:
