@@ -32,15 +32,10 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        I am broadly interested in theoretical computer science and combinatorics.
-
-        Currently, I work on topics including:
-
-        - Graph algorithms and coloring of 3-colorable graphs  
-        - Extremal and probabilistic combinatorics  
-        - Streaming and sublinear algorithms  
-
-        I enjoy learning from seminars, reading groups, and collaborations.
+        I am broadly interested in theoretical computer science and combinatorics, especially on graph-theoretic problems.
+        
+        I enjoy learning through seminars, reading groups, and collaborations.
+        It is always pleased to meet more talented people in this area, explore new ideas together, and help bring new members into this community.
     design:
       columns: '1'
 

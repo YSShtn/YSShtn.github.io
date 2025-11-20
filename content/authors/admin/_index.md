@@ -75,22 +75,38 @@ education:
       Double Major in Mathematics.
 
 work:
-  - position: Senior AI Research Scientist
-    company_name: Meta AI
+  - position: Summer Research Intern -> Research Assistant
+    company_name: Academia Sinica
     company_url: 'https://ai.meta.com/'
     icon: ''
-    date_start: 2020-01-01
+    date_start: 2025-06-01
     date_end: ''
     summary: |2-
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
-  - position: AI Research Intern
-    company_name: OpenAI
-    company_url: 'https://openai.com/'
+      Research on streaming algorithms and complexity lower bounds, particularly using the communication complexity reduction to do subgraph detection.
+  - position: Graduate Student Participant
+    company_name: IAS/PCMI
+    company_url: 'https://www.ias.edu/pcmi/pcmi-2025-graduate-summer-school'
     icon: ''
-    date_start: 2019-06-01
-    date_end: 2019-12-31
+    date_start: 2025-07-06
+    date_end: 2025-07-26
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      3 weeks summer schools on extremal and probabilistic combinatorics.
+  - position: Winter Research Intern
+    company_name: WorldQuant
+    company_url: 'https://www.worldquant.com/'
+    icon: ''
+    date_start: 2023-02-13
+    date_end: 2023-01-12
+    summary: |
+      Alpha Researcher
+  - position: Teaching Assistant of "Algorithm Design and Analysis"
+    company_name: NTU CSIE
+    company_url: ''
+    icon: ''
+    date_start: 2021-09-01
+    date_end: 2022-01-31
+    summary: |
+      TA
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
@@ -127,37 +143,38 @@ skills:
         icon: book-open
 
 languages:
+  - name: Mandarin
+    level: Native
   - name: English
-    percent: 100
-  - name: Spanish
-    percent: 50
+    level: TOEFL iBT 101 (2024)
+  - name: Japanese
+    level: Learning
+
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 awards:
-  - title: Best Paper Award
-    url: https://neurips.cc/
-    date: '2022-12-01'
-    awarder: NeurIPS
+  - title: Silver Medal
+    url: https://www.imo-official.org/team_r.aspx?code=TWN&year=2019
+    date: '2019-07-01'
+    awarder: IMO
     icon: hero/trophy
     summary: |
-      Awarded for groundbreaking work on efficient training of large models.
-  - title: AI Innovation Grant
-    url: https://www.nsf.gov/
-    date: '2021-06-15'
-    awarder: National Science Foundation
-    icon: hero/currency-dollar
+      score 29 out of 42
+  - title: Bronze Medal
+    url: https://www.imo-official.org/team_r.aspx?code=TWN&year=2018
+    date: '2018-07-01'
+    awarder: IMO
+    icon: hero/trophy
     summary: |
-      $500,000 grant for research in ethical AI development.
-  - title: Outstanding PhD Thesis
-    url: https://www.stanford.edu/
-    date: '2019-06-30'
-    awarder: Stanford University
-    icon: hero/academic-cap
+      score 17 out of 42
+  - title: Bronze Medal
+    url: 
+    date: '2018-03-01'
+    awarder: APMO
+    icon: hero/trophy
     summary: |
-      Recognized for contributions to scaling laws in deep learning.
+      score 21 out of 35
 ---
-
-Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.

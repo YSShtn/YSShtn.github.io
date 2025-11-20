@@ -2,11 +2,6 @@
 title: "Research"
 type: landing
 
-menu:
-  main:
-    name: "Research"
-    weight: 20
-
 sections:
   - block: hero
     content:
