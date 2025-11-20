@@ -1,11 +1,14 @@
 ---
 title: 'Experience'
-date: 2023-10-24
 type: landing
 
 design:
   spacing: '5rem'
 
+menu:
+  main:
+    name: "Experience"
+    weight: 40
 # Note: `username` refers to the user's folder name in `content/authors/`
 
 # Page sections
