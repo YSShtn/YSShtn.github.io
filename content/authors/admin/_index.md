@@ -65,7 +65,6 @@ education:
     summary: |
 
       Specialized in graph algorithms.
-      Founder and Organizer of TCS study groups in NTU.
   - area: BS Computer Science and Information Engineering
     institution: National Taiwan University
     icon: ""
@@ -79,7 +78,7 @@ education:
 work:
   - position: Summer Research Intern -> Research Assistant
     company_name: Academia Sinica
-    company_url: 'https://ai.meta.com/'
+    company_url: ''
     icon: ''
     date_start: 2025-06-01
     date_end: ''
