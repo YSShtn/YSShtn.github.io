@@ -11,12 +11,15 @@ sections:
     content:
       username: admin
       text: |
-        M.S. student in Computer Science at National Taiwan University.  
+        M.S. student in Computer Science at National Taiwan University, advised by Prof. [[Shang-En Huang](https://tmt514.github.io/)].
+
+        Research Assistant under [[Prof. Meng-Tsung Tsai](https://homepage.iis.sinica.edu.tw/pages/mttsai/contact_en.html)]   
+        
         Interested in graph algorithms, extremal & probabilistic combinatorics,  
         and streaming / sublinear algorithms.
       button:
-        text: Download CV
-        url: uploads/CV-2025-11-15.pdf
+        text: Download CV (last update 2025/11/21)
+        url: uploads/CV.pdf
       headings:
         about: 'About'
         education: 'Education'
@@ -29,7 +32,7 @@ sections:
 
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: '📚 My Academic Life'
       subtitle: ''
       text: |-
         I am broadly interested in theoretical computer science and combinatorics, especially on graph-theoretic problems.

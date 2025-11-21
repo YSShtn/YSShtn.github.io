@@ -36,6 +36,8 @@ profiles:
   - icon: at-symbol
     url: 'sammy00741@gmail.com'
     label: E-mail Me
+  - icon: brands/instagram
+    url: https://www.instagram.com/s.y.s_revolilol/
   - icon: brands/x
     url: https://x.com/SYShtn
   - icon: brands/github

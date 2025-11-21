@@ -7,22 +7,36 @@ sections:
     content:
       title: "Research"
       text: |
-        I study graph algorithms, extremal and probabilistic combinatorics,
-        and streaming / sublinear algorithms.
-      image:
-        filename: "research-hero.jpg"   # 等一下會放這張圖
+        I focus on graph algorithms, extremal and probabilistic combinatorics,
+        streaming / sublinear algorithms, and complexity lower bounds.
     design:
+      text_color_light: true
       background:
-        color: "#0f172a"    # 先用深色背景，之後想改圖再換
-        text_color_light: true
+        image:
+          filename: "research-bg.png"
+        image_darken: 0.55
+        overlay_filter: "rgba(0,0,0,0.35)"
+
+
+
 
   - block: markdown
     content:
-      title: "Topics & directions"
+      title: "Interested areas and directions"
       text: |
-        - Graph algorithms and coloring of 3-colorable graphs  
-        - Extremal and probabilistic combinatorics  
-        - Streaming and sublinear algorithms  
-
-        （這裡可以寫你現在在做的題目、合作對象、實驗室等等）
+        - Structural Graph Theory
+        - Graph expanders and spectral graph theory
+        - Streaming algorithms and communication complexity
+        - Extremal and probabilistic combinatorics 
+        - Combinatorial Optimization
+  - block: markdown
+    content:
+      title: "Projects"
+      text: |
+        - **Polynomial coloring of 3-colorable graphs** (ongoing)
+          - *Collaborator*: Prof. Shang-En Huang
+          - Coloring 3-colorable graphs is a classic problem. I aim to make a reduction from general settings to restricted cases and to develop algorithms for specific classes of graphs.
+        - **Upper and Lower Bounds for Subgraph Detection in the Streaming Model** (ongoing; planned submission to CCC)
+          - *Collaborators*: Ying-Sien Wu, Yen-Chu Tsai, Prof. Meng-Tsung Tsai
+          - We establish tight space-complexity bounds for several classes of subgraph detection problems, and explore connections between streaming algorithms and extremal graph theory.
 ---

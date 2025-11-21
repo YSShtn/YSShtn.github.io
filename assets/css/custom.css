@@ -1,0 +1,23 @@
+h1.text-4xl.font-bold.tracking-tight.text-gray-900.dark\:text-gray-100.sm\:text-6xl {
+  color: white !important;
+  -webkit-text-fill-color: white !important;
+}
+p.mt-6.text-lg.leading-8.text-gray-600.dark\:text-gray-300.max-w-2xl.mx-auto {
+  color: white !important;
+  -webkit-text-fill-color: white !important;
+}
+h1 {
+  font-size: 2rem !important;   /* 原本大約 2.25–3.75rem */
+}
+
+h2 {
+  font-size: 1.6rem !important; /* 原本大約 2rem */
+}
+
+h3 {
+  font-size: 1.3rem !important;
+}
+
+h4 {
+  font-size: 1.1rem !important;
+}
