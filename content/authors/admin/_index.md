@@ -72,8 +72,13 @@ education:
     date_end: 2024-06-30
     summary: |
       GPA: 4.05/4.3
-
-      Double Major in Mathematics.
+  - area: BS Mathematics
+    institution: National Taiwan University
+    icon: ""
+    date_start: 2019-09-01
+    date_end: 2024-06-30
+    summary: |
+      Double Major
 
 work:
   - position: Summer Research Intern -> Research Assistant

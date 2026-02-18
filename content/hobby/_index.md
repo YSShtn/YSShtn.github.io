@@ -37,7 +37,7 @@ A few things I enjoy outside research.
     My favorite singers and bands include  
     <a href="https://www.youtube.com/@ZUTOMAYO" target="_blank">ずっと真夜中でいいのに (ZUTOMAYO)</a>,  
     <a href="https://www.youtube.com/@Ado1024" target="_blank">Ado</a>,  
-    <a href="https://www.youtube.com/@Uru_official" target="_blank">Uru</a>, and  
+    <a href="https://www.youtube.com/@Suzuki_Konomi" target="_blank">鈴木このみ</a>, and  
     <a href="https://www.youtube.com/@girlsbandcry" target="_blank">トゲナシトゲアリ</a>.
   </div>
 </div>
@@ -69,9 +69,10 @@ By the way, I love attending concerts, and I’ve made it to several shows over 
 </div>
 
 ---
-## Board Games 🎲
+## Board Games and Social games🎲
 
-I love board games! If you also love board games, we can play together!
+I love various types of board games! Recently I especially enjoy <a href="https://wiki.bloodontheclocktower.com/Main_Page" target="_blank">BOTC</a>.
+If you also love board games, we can hang out and play together!
 
 ---
 
@@ -91,5 +92,5 @@ I enjoy jogging, cycling, and hiking, and I’d be happy to join if someone invi
 
 ## Some other hobbies I want to explore
 
-I’d also like to spend more time on cooking, piano, chess, and reading, though I never seem to have enough time for them.
+I’d also like to spend more time on cooking, piano, japanese mahjang, chess, and reading, though I never seem to have enough time for them.
 Still, if you enjoy any of these too, we can always try doing them together!

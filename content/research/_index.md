@@ -31,12 +31,17 @@ sections:
         - Combinatorial Optimization
   - block: markdown
     content:
-      title: "Projects"
+      title: "Publications and Projects"
       text: |
-        - **Polynomial coloring of 3-colorable graphs** (ongoing)
-          - *Collaborator*: Prof. Shang-En Huang
-          - Coloring 3-colorable graphs is a classic problem. I aim to make a reduction from general settings to restricted cases and to develop algorithms for specific classes of graphs.
-        - **Upper and Lower Bounds for Subgraph Detection in the Streaming Model** (ongoing; planned submission to CCC)
-          - *Collaborators*: Ying-Sien Wu, Yen-Chu Tsai, Prof. Meng-Tsung Tsai
-          - We establish tight space-complexity bounds for several classes of subgraph detection problems, and explore connections between streaming algorithms and extremal graph theory.
+        - **Space Complexity Dichotomies for Subgraph Finding Problems in the Streaming Model** 
+          - [arxiv](https://arxiv.org/abs/2602.08002)
+
+  - block: markdown
+    content:
+      title: "Involved Side Projects"
+      text: |
+        - **Semi-Autonomous Mathematics Discovery with Gemini: A Case Study on the Erdős Problems**
+          - [arxiv](https://arxiv.org/abs/2601.22401)
+        - **Combinatorial proofs of Petrie Pieri rule and Plethystic Pieri rule**
+          - [arxiv](https://arxiv.org/abs/2509.16872)
 ---

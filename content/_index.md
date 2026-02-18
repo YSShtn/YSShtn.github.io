@@ -18,7 +18,7 @@ sections:
         Interested in graph algorithms, extremal & probabilistic combinatorics,  
         and streaming / sublinear algorithms.
       button:
-        text: Download CV (last update 2025/11/21)
+        text: Download CV (last update 2026/02/18)
         url: uploads/CV.pdf
       headings:
         about: 'About'
