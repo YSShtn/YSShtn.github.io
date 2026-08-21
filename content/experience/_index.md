@@ -25,8 +25,8 @@ sections:
     content:
       title: "Languages"
       text: |
-        - **Mandarin** — Native  
-        - **English** — Advanced (TOEFL 101 R30 L26 S22 W23)  
+        - **Mandarin** — Native
+        - **English** — Working proficiency
         - **Japanese** — Basic conversational
     design:
       columns: "1"

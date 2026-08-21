@@ -6,7 +6,7 @@
 # Appearance
 appearance:
   mode: system
-  color: indigo
+  color: emerald
 
 # SEO
 marketing:
@@ -14,8 +14,8 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
-    twitter: 'GetResearchDev'
+    description: 'Beginning in September 2026, Yu-Sheng Shih is a Research Assistant at the Institute of Information Science, Academia Sinica, working on graph algorithms, streaming and sublinear algorithms, communication complexity, and combinatorics.'
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
@@ -35,14 +35,14 @@ header:
     show_search: true
     show_theme_chooser: true
     logo:
-      text: '(Sam) Yu-Sheng Shih'
+      text: 'Yu-Sheng Shih'
 
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Me. This work is licensed under {license}'
+    notice: '© {year} Yu-Sheng Shih'
     license:
-      enable: true
+      enable: false
       allow_derivatives: false
       share_alike: true
       allow_commercial: false

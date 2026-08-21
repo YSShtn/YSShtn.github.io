@@ -4,77 +4,28 @@ date: 2022-10-24
 type: landing
 
 design:
-  spacing: '6rem'
+  spacing: '5rem'
 
 sections:
   - block: resume-biography-3
     content:
       username: admin
       text: |
-        M.S. student in Computer Science at National Taiwan University, advised by Prof. [[Shang-En Huang](https://tmt514.github.io/)].
+        Beginning in September 2026, I am a Research Assistant at the [Institute of Information Science, Academia Sinica](https://www.iis.sinica.edu.tw/en/), working with [Prof. Meng-Tsung Tsai](https://homepage.iis.sinica.edu.tw/pages/mttsai/contact_en.html). I received my M.S. and B.S. degrees in Computer Science and Information Engineering from National Taiwan University; during my B.S., I also completed a second major in Mathematics. My master's research was advised by Prof. [Shang-En Huang](https://tmt514.github.io/).
 
-        Research Assistant under [[Prof. Meng-Tsung Tsai](https://homepage.iis.sinica.edu.tw/pages/mttsai/contact_en.html)]   
-        
-        Interested in graph algorithms, extremal & probabilistic combinatorics,  
-        and streaming / sublinear algorithms.
+        My research interests include **graph algorithms**, **streaming and sublinear algorithms**, **communication complexity**, and **extremal combinatorics**. I am particularly interested in how extremal structures in combinatorics relate to computational hardness, and how probabilistic methods can illuminate combinatorial phenomena and lead to efficient algorithms.
+
       button:
-        text: Download CV (last update 2026/02/18)
-        url: uploads/CV.pdf
+        text: Curriculum Vitae · Updated Sep. 2026
+        url: /uploads/yu-sheng-shih-cv.pdf
       headings:
         about: 'About'
         education: 'Education'
-        interests: 'Research Interests'
+        interests: 'Research Areas'
     design:
-      css_class: hbx-bg-gradient
+      css_class: tcs-profile
       avatar:
         size: medium
-        shape: circle
-
-  - block: markdown
-    content:
-      title: '📚 My Academic Life'
-      subtitle: ''
-      text: |-
-        I am broadly interested in theoretical computer science and combinatorics, especially on graph-theoretic problems.
-        
-        I enjoy learning through seminars, reading groups, and collaborations.
-        It is always pleased to meet more talented people in this area, explore new ideas together, and help bring new members into this community.
-    design:
-      columns: '1'
-
-#  - block: collection
-#    id: papers
-#    enable: false
-#    content:
-#      title: Featured Publications
-#      filters:
-#        folders:
-#          - publications
-#        featured_only: true
-#    design:
-#      view: article-grid
-#      columns: 2
-
-#  - block: collection
-#    content:
-#      title: Recent Publications
-#      text: ''
-#      filters:
-#        folders:
-#          - publications
-#        exclude_featured: false
-#    design:
-#      view: citation
-
-#  - block: collection
-#    id: talks
-#    enable: false
-#    content:
-#      title: Recent & Upcoming Talks
-#      filters:
-#        folders:
-#          - events
-#    design:
-#      view: card
+        shape: square
 
 ---

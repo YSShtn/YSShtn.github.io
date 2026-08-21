@@ -12,10 +12,6 @@ name_pronunciation: ''
 # Pronouns (optional)
 pronouns: he/him
 
-# Status emoji
-status:
-  icon: 🚀
-
 # Is this the primary user of the site?
 superuser: true
 
@@ -23,23 +19,19 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: M.S. Student in Computer Science and Information Engineering
+role: Research Assistant · Theoretical Computer Science · Combinatorics
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: National Taiwan University
-    url: https://ww.ntu.edu.tw/
+  - name: Institute of Information Science, Academia Sinica
+    url: https://www.iis.sinica.edu.tw/en/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'sammy00741@gmail.com'
+    url: 'mailto:sammy00741@gmail.com'
     label: E-mail Me
-  - icon: brands/instagram
-    url: https://www.instagram.com/s.y.s_revolilol/
-  - icon: brands/x
-    url: https://x.com/SYShtn
   - icon: brands/github
     url: https://github.com/YSShtn
   #- icon: brands/linkedin
@@ -50,45 +42,60 @@ profiles:
     url: https://orcid.org/0009-0005-4826-0383
 
 interests:
-  - Graph Algorithms and Graph Theory
-  - Streaming Algorithms
-  - Complexity and Lower Bounds
+  - Graph Theory and Graph Algorithms
+  - Streaming and Sublinear Algorithms
+  - Communication Complexity
   - Extremal and Probabilistic Combinatorics
   - Combinatorial Optimization
 
 education:
-  - area: MS Computer Science and Information Engineering
+  - area: M.S. in Computer Science and Information Engineering
     institution: National Taiwan University
     icon: ""
     date_start: 2025-01-01
-    date_end:
+    date_end: 2026-08-01
     summary: |
-
-      Specialized in graph algorithms.
-  - area: BS Computer Science and Information Engineering
+      Advisor: Prof. Shang-En Huang
+  - area: B.S. in Computer Science and Information Engineering
     institution: National Taiwan University
     icon: ""
-    date_start: 2019-09-01
+    date_start: 2019-08-01
     date_end: 2024-06-30
     summary: |
-      GPA: 4.05/4.3
-  - area: BS Mathematics
-    institution: National Taiwan University
-    icon: ""
-    date_start: 2019-09-01
-    date_end: 2024-06-30
-    summary: |
-      Double Major
+      Cumulative GPA: 4.05/4.3 · Second major in Mathematics
 
 work:
-  - position: Summer Research Intern -> Research Assistant
-    company_name: Academia Sinica
-    company_url: ''
+  - position: Research Assistant
+    company_name: Institute of Information Science, Academia Sinica
+    company_url: 'https://www.iis.sinica.edu.tw/en/'
     icon: ''
-    date_start: 2025-06-01
+    date_start: 2026-09-01
     date_end: ''
     summary: |2-
-      Research on streaming algorithms and complexity lower bounds, particularly using the communication complexity reduction to do subgraph detection.
+      Streaming graph algorithms and communication complexity, supervised by Prof. Meng-Tsung Tsai.
+  - position: Founder and Organizer
+    company_name: NTU TCS Study Group
+    company_url: 'https://sites.google.com/view/ntu-tcs-study-group/home'
+    icon: ''
+    date_start: 2025-09-01
+    date_end: ''
+    summary: |
+      Co-organized with Peng-Ting Lin, Ben Cheung, Shang-En Huang, and Po-Yu Chou.
+  - position: Teaching Assistant — Graph Theory with Applications
+    company_name: National Taiwan University
+    company_url: 'https://www.ntu.edu.tw/'
+    icon: ''
+    date_start: 2026-02-01
+    date_end: 2026-06-30
+    summary: ''
+  - position: Research Intern, Streaming Algorithms
+    company_name: Institute of Information Science, Academia Sinica
+    company_url: 'https://www.iis.sinica.edu.tw/en/'
+    icon: ''
+    date_start: 2025-06-01
+    date_end: 2025-08-31
+    summary: |
+      Research on streaming graph algorithms and communication complexity.
   - position: Graduate Student Participant
     company_name: IAS/PCMI
     company_url: 'https://www.ias.edu/pcmi/pcmi-2025-graduate-summer-school'
@@ -96,65 +103,30 @@ work:
     date_start: 2025-07-06
     date_end: 2025-07-26
     summary: |
-      3 weeks summer schools on extremal and probabilistic combinatorics.
-  - position: Winter Research Intern
-    company_name: WorldQuant
+      Graduate Summer School in extremal and probabilistic combinatorics.
+  - position: Quantitative Research Intern
+    company_name: WorldQuant Taiwan
     company_url: 'https://www.worldquant.com/'
     icon: ''
-    date_start: 2023-02-13
-    date_end: 2023-01-12
+    date_start: 2023-01-01
+    date_end: 2023-02-28
     summary: |
-      Alpha Researcher
-  - position: Teaching Assistant of "Algorithm Design and Analysis"
-    company_name: NTU CSIE
-    company_url: ''
+      Quantitative research.
+  - position: Teaching Assistant — Algorithm Design and Analysis
+    company_name: National Taiwan University
+    company_url: 'https://www.ntu.edu.tw/'
     icon: ''
     date_start: 2021-09-01
     date_end: 2022-01-31
-    summary: |
-      TA
-
-# Skills
-# Add your own SVG icons to `assets/media/icons/`
-skills:
-  - name: Technical Skills
-    items:
-      - name: Python & PyTorch
-        description: ''
-        percent: 95
-        icon: code-bracket
-      - name: Machine Learning
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: Cloud Computing (AWS/GCP)
-        description: ''
-        percent: 85
-        icon: cloud
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking in the Rockies
-        description: ''
-        percent: 80
-        icon: person-simple-walk
-      - name: Building Custom PCs
-        description: ''
-        percent: 90
-        icon: cpu-chip
-      - name: Sci-Fi Reading
-        description: ''
-        percent: 70
-        icon: book-open
+    summary: ''
 
 languages:
   - name: Mandarin
     level: Native
   - name: English
-    level: TOEFL iBT 101 (2024)
+    level: Working proficiency
   - name: Japanese
-    level: Learning
+    level: Basic conversational
 
 
 # Awards.
@@ -176,6 +148,13 @@ awards:
     icon: hero/trophy
     summary: |
       score 17 out of 42
+  - title: Silver Prize (2021 and 2022)
+    url: ''
+    date: '2022-01-01'
+    awarder: ICPC Taipei Regional
+    icon: hero/trophy
+    summary: |
+      Silver Prize in both the 2021 and 2022 Taipei Regional contests.
   - title: Bronze Medal
     url: 
     date: '2018-03-01'
