@@ -12,17 +12,7 @@ sections:
             <h1>A little corner for everything else.</h1>
             <p>Recent thoughts, short notes, personal records, or anything that does not quite fit into the other pages.</p>
           </div>
-          <div class="tcs-hero-ornament tcs-others-ornament" aria-hidden="true">
-            <svg viewBox="0 0 390 260">
-              <path class="tcs-ornament-blob tcs-ornament-blob--one" d="M70 190 C27 148, 43 74, 109 45 C168 18, 226 51, 226 110 C226 168, 126 240, 70 190 Z" />
-              <path class="tcs-ornament-blob tcs-ornament-blob--two" d="M239 64 C281 27, 353 52, 359 112 C365 170, 314 207, 264 184 C215 162, 197 101, 239 64 Z" />
-              <path class="tcs-ornament-loop" d="M51 66 C118 7, 179 245, 337 189" />
-              <circle class="tcs-ornament-ring" cx="283" cy="104" r="36" />
-              <g class="tcs-ornament-specks">
-                <circle cx="62" cy="215" r="4" /><circle cx="83" cy="226" r="3" /><circle cx="337" cy="44" r="4" /><circle cx="354" cy="59" r="3" />
-              </g>
-            </svg>
-          </div>
+          <a class="tcs-hero-photo-credit" href="https://unsplash.com/photos/person-walking-a-dog-on-a-path-in-a-park-ATlBdNZKkvo">Photo by Philipp Hubert · Unsplash</a>
         </div>
     design:
       columns: '1'

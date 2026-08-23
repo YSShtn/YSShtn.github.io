@@ -12,10 +12,7 @@ sections:
             <h1>Research Interests and Projects</h1>
             <p>I have included some context for my recent work as well as a broader set of questions that I would be interested in discussing or pursuing.</p>
           </div>
-          <figure class="tcs-research-figure">
-            <img src="/images/research-combinatorics.webp" alt="An abstract mathematical illustration of finite graphs, highlighted cycles, and a graph cut">
-            <figcaption>Finite graphs · cuts · cycles</figcaption>
-          </figure>
+          <a class="tcs-hero-photo-credit" href="https://unsplash.com/photos/geometric-shadow-cast-on-a-tiled-surface-yL38G1Yl-tg">Photo by Declan Sun · Unsplash</a>
         </div>
     design:
       columns: '1'

@@ -12,17 +12,7 @@ sections:
             <h1>Reading, talks, and useful links.</h1>
             <p>Materials from reading groups and talks, together with a small collection of tools and references for theoretical computer science and combinatorics.</p>
           </div>
-          <div class="tcs-hero-ornament tcs-notes-ornament" aria-hidden="true">
-            <svg viewBox="0 0 390 260">
-              <rect class="tcs-ornament-plane tcs-ornament-plane--one" x="71" y="45" width="196" height="144" rx="10" transform="rotate(-8 169 117)" />
-              <rect class="tcs-ornament-plane tcs-ornament-plane--two" x="118" y="59" width="196" height="144" rx="10" transform="rotate(7 216 131)" />
-              <circle class="tcs-ornament-sun" cx="92" cy="188" r="28" />
-              <path class="tcs-ornament-curve" d="M31 93 C92 20, 168 231, 350 84" />
-              <g class="tcs-ornament-dots">
-                <circle cx="48" cy="64" r="4" /><circle cx="69" cy="54" r="3" /><circle cx="332" cy="188" r="4" /><circle cx="349" cy="207" r="3" />
-              </g>
-            </svg>
-          </div>
+          <a class="tcs-hero-photo-credit" href="https://unsplash.com/photos/books-displayed-on-a-shelf-with-sunlight-and-shadows-zSbYax5t2Nw">Photo by Declan Sun · Unsplash</a>
         </div>
     design:
       columns: '1'
@@ -169,6 +159,10 @@ sections:
               <li>
                 <div><a href="https://www.quantamagazine.org/">Quanta Magazine <span>↗</span></a><small>Mathematics and computer science</small></div>
                 <p>An editorially independent science magazine covering major developments in mathematics, theoretical computer science, physics, and biology. Its mathematics and CS features are especially good at reconstructing the problem, central idea, and research story behind a breakthrough.</p>
+              </li>
+              <li>
+                <div><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Whenever You Need a Fixed Point <span>↗</span></a><small>A multimedia essay on persistence and invariance</small></div>
+                <p>A concise 1987 study of commitment, organized around a remarkably stable collection of promises. <strong class="tcs-acrostic-letter">R</strong>epeated <strong class="tcs-acrostic-letter">i</strong>nteractions <strong class="tcs-acrostic-letter">c</strong>an <strong class="tcs-acrostic-letter">k</strong>eep <strong class="tcs-acrostic-letter">a</strong> <strong class="tcs-acrostic-letter">s</strong>imple <strong class="tcs-acrostic-letter">t</strong>heme <strong class="tcs-acrostic-letter">l</strong>ively <strong class="tcs-acrostic-letter">e</strong>ven <strong class="tcs-acrostic-letter">y</strong>ears later, and its direct presentation has made it an unusual but persistent reference in online intellectual culture.</p>
               </li>
             </ul>
           </section>

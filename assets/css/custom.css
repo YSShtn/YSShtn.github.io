@@ -514,10 +514,17 @@ button:focus-visible {
 }
 
 .tcs-research-hero {
+  position: relative;
+  overflow: hidden;
   background:
-    linear-gradient(90deg, transparent 49.85%, color-mix(in srgb, var(--tcs-accent) 7%, transparent) 50%, transparent 50.15%),
-    color-mix(in srgb, var(--tcs-surface) 82%, var(--tcs-accent-soft));
-  background-size: 5rem 100%, auto;
+    linear-gradient(90deg, rgba(247, 246, 241, 0.08) 0%, rgba(247, 246, 241, 0.28) 38%, rgba(247, 246, 241, 0.86) 65%, rgba(247, 246, 241, 0.97) 100%),
+    url("/media/research-lattice-shadow.jpg") center 48% / cover no-repeat;
+}
+
+.dark .tcs-research-hero {
+  background:
+    linear-gradient(90deg, rgba(7, 16, 27, 0.34) 0%, rgba(7, 16, 27, 0.58) 42%, rgba(7, 16, 27, 0.92) 68%, rgba(7, 16, 27, 0.98) 100%),
+    url("/media/research-lattice-shadow.jpg") center 48% / cover no-repeat;
 }
 
 .tcs-research-hero .max-w-prose,
@@ -532,6 +539,38 @@ button:focus-visible {
   display: grid;
   gap: clamp(2.5rem, 7vw, 6rem);
   align-items: center;
+}
+
+.tcs-research-hero .tcs-research-intro {
+  position: relative;
+  grid-template-columns: minmax(0, 1fr);
+  min-height: clamp(25rem, 48vw, 34rem);
+}
+
+.tcs-research-hero .tcs-research-intro-copy {
+  width: min(100%, 39rem);
+  margin-left: auto;
+}
+
+.tcs-research-hero .tcs-research-intro h1,
+.tcs-research-hero .tcs-research-intro-copy > p {
+  text-shadow: 0 2px 18px rgba(255, 255, 255, 0.72);
+}
+
+.dark .tcs-research-hero .tcs-research-intro h1,
+.dark .tcs-research-hero .tcs-research-intro-copy > p {
+  color: #f4f7f8;
+  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.64);
+}
+
+.tcs-research-hero .tcs-hero-photo-credit {
+  color: rgba(16, 35, 63, 0.64) !important;
+  text-shadow: 0 1px 8px rgba(255, 255, 255, 0.92);
+}
+
+.dark .tcs-research-hero .tcs-hero-photo-credit {
+  color: rgba(255, 255, 255, 0.7) !important;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.68);
 }
 
 .tcs-section-kicker {
@@ -1081,6 +1120,22 @@ button:focus-visible {
   height: auto;
 }
 
+.tcs-hero-photo-credit {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  color: rgba(255, 255, 255, 0.72) !important;
+  font-family: var(--tcs-mono);
+  font-size: 0.62rem;
+  letter-spacing: 0.035em;
+  text-decoration: none !important;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.62);
+}
+
+.tcs-hero-photo-credit:hover {
+  color: #fff !important;
+}
+
 /* Notes: a restrained research-folder layout. */
 
 .tcs-notes-hero,
@@ -1092,11 +1147,28 @@ button:focus-visible {
 }
 
 .tcs-notes-hero {
+  position: relative;
+  overflow: hidden;
   border-bottom: 1px solid var(--tcs-line);
   background:
-    linear-gradient(90deg, color-mix(in srgb, var(--tcs-notes-accent) 5%, transparent) 1px, transparent 1px),
-    linear-gradient(var(--tcs-surface), color-mix(in srgb, var(--tcs-notes-wash) 42%, var(--tcs-paper)));
-  background-size: 4rem 100%, auto;
+    linear-gradient(90deg, rgba(13, 9, 12, 0.92) 0%, rgba(19, 11, 12, 0.82) 40%, rgba(23, 12, 12, 0.46) 68%, rgba(12, 8, 10, 0.2) 100%),
+    url("/media/notes-sunlit-books.jpg") center 52% / cover no-repeat;
+}
+
+.tcs-notes-hero .tcs-page-hero-grid {
+  position: relative;
+  grid-template-columns: minmax(0, 1fr);
+  min-height: clamp(25rem, 48vw, 34rem);
+}
+
+.tcs-notes-hero .tcs-page-intro {
+  max-width: 43rem;
+}
+
+.tcs-notes-hero .tcs-page-intro h1,
+.tcs-notes-hero .tcs-page-intro > p {
+  color: #fff7ed;
+  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.46);
 }
 
 .dark .tcs-notes-hero,
@@ -1108,7 +1180,7 @@ button:focus-visible {
 }
 
 .tcs-notes-hero .tcs-section-kicker {
-  color: var(--tcs-notes-accent);
+  color: #ffc37d;
 }
 
 .tcs-notes-ornament svg path,
@@ -1372,10 +1444,33 @@ button:focus-visible {
 }
 
 .tcs-hobby-hero {
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
   border-bottom: 1px solid var(--tcs-line);
   background:
-    radial-gradient(circle at 82% 30%, color-mix(in srgb, var(--tcs-hobby-accent) 10%, transparent), transparent 18rem),
-    linear-gradient(135deg, var(--tcs-surface), color-mix(in srgb, var(--tcs-hobby-wash) 46%, var(--tcs-paper)));
+    linear-gradient(90deg, rgba(12, 9, 18, 0.95) 0%, rgba(18, 10, 25, 0.84) 40%, rgba(22, 10, 28, 0.38) 68%, rgba(11, 8, 17, 0.12) 100%),
+    url("/media/hobby-arcade-night.jpg") 58% center / cover no-repeat;
+}
+
+.tcs-hobby-hero .tcs-page-hero-grid {
+  position: relative;
+  grid-template-columns: minmax(0, 1fr);
+  min-height: clamp(25rem, 51vw, 36rem);
+}
+
+.tcs-hobby-hero .tcs-page-intro {
+  max-width: 37rem;
+}
+
+.tcs-hobby-hero .tcs-page-intro h1 {
+  color: #f7f1eb;
+  text-shadow: 0 2px 22px rgba(0, 0, 0, 0.24);
+}
+
+.tcs-hobby-hero .tcs-page-intro > p {
+  color: #eadfd8;
+  text-shadow: 0 1px 15px rgba(0, 0, 0, 0.35);
 }
 
 .dark .tcs-hobby-hero,
@@ -1386,7 +1481,7 @@ button:focus-visible {
 }
 
 .tcs-hobby-hero .tcs-section-kicker {
-  color: var(--tcs-hobby-accent);
+  color: #efb2c7;
 }
 
 .tcs-hobby-ornament svg path,
@@ -1671,10 +1766,28 @@ button:focus-visible {
 }
 
 .tcs-others-hero {
+  position: relative;
+  overflow: hidden;
   border-bottom: 1px solid var(--tcs-line);
   background:
-    linear-gradient(115deg, transparent 66%, color-mix(in srgb, var(--tcs-others-accent) 5%, transparent) 66%),
-    linear-gradient(var(--tcs-surface), color-mix(in srgb, var(--tcs-others-wash) 34%, var(--tcs-paper)));
+    linear-gradient(90deg, rgba(8, 20, 15, 0.9) 0%, rgba(10, 29, 18, 0.78) 41%, rgba(10, 25, 17, 0.4) 67%, rgba(7, 17, 12, 0.16) 100%),
+    url("/media/others-evening-walk.jpg") center 58% / cover no-repeat;
+}
+
+.tcs-others-hero .tcs-page-hero-grid {
+  position: relative;
+  grid-template-columns: minmax(0, 1fr);
+  min-height: clamp(25rem, 48vw, 34rem);
+}
+
+.tcs-others-hero .tcs-page-intro {
+  max-width: 40rem;
+}
+
+.tcs-others-hero .tcs-page-intro h1,
+.tcs-others-hero .tcs-page-intro > p {
+  color: #f8f4e9;
+  text-shadow: 0 2px 18px rgba(0, 0, 0, 0.5);
 }
 
 .dark .tcs-others-hero,
@@ -1684,7 +1797,7 @@ button:focus-visible {
 }
 
 .tcs-others-hero .tcs-section-kicker {
-  color: var(--tcs-others-accent);
+  color: #f2bf7f;
 }
 
 .tcs-others-ornament svg path,
@@ -1954,6 +2067,10 @@ button:focus-visible {
   line-height: 1.62;
 }
 
+.tcs-resource-list .tcs-acrostic-letter {
+  font-weight: 500;
+}
+
 /* Personal page: consistently aligned concert history. */
 
 .tcs-concert-note {
@@ -2162,6 +2279,40 @@ button:focus-visible {
 }
 
 @media (max-width: 767px) {
+  .tcs-notes-hero {
+    background-position: 58% center;
+  }
+
+  .tcs-others-hero {
+    background-position: 35% center;
+  }
+
+  .tcs-research-hero {
+    background:
+      linear-gradient(rgba(247, 246, 241, 0.76), rgba(247, 246, 241, 0.86)),
+      url("/media/research-lattice-shadow.jpg") 28% center / cover no-repeat;
+  }
+
+  .dark .tcs-research-hero {
+    background:
+      linear-gradient(rgba(7, 16, 27, 0.78), rgba(7, 16, 27, 0.9)),
+      url("/media/research-lattice-shadow.jpg") 28% center / cover no-repeat;
+  }
+
+  .tcs-notes-hero .tcs-page-hero-grid,
+  .tcs-others-hero .tcs-page-hero-grid {
+    min-height: 31rem;
+  }
+
+  .tcs-research-hero .tcs-research-intro {
+    min-height: 31rem;
+  }
+
+  .tcs-hero-photo-credit {
+    right: 0;
+    bottom: -0.5rem;
+  }
+
   .tcs-profile::before {
     top: 7rem;
     right: -10rem;

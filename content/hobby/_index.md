@@ -12,18 +12,7 @@ sections:
             <h1>Things I enjoy.</h1>
             <p>Anime, music, games, and a few activities that give me a reason to step away from the desk.</p>
           </div>
-          <div class="tcs-hero-ornament tcs-hobby-ornament" aria-hidden="true">
-            <svg viewBox="0 0 390 260">
-              <circle class="tcs-ornament-orbit tcs-ornament-orbit--outer" cx="136" cy="126" r="87" />
-              <circle class="tcs-ornament-orbit tcs-ornament-orbit--inner" cx="136" cy="126" r="48" />
-              <path class="tcs-ornament-wave tcs-ornament-wave--one" d="M194 75 C240 35, 282 121, 356 67" />
-              <path class="tcs-ornament-wave tcs-ornament-wave--two" d="M191 113 C249 68, 295 161, 362 104" />
-              <path class="tcs-ornament-wave tcs-ornament-wave--three" d="M192 151 C246 113, 305 198, 356 145" />
-              <path class="tcs-ornament-petal tcs-ornament-petal--one" d="M56 195 C28 163, 40 126, 79 119 C105 149, 94 184, 56 195 Z" />
-              <path class="tcs-ornament-petal tcs-ornament-petal--two" d="M287 213 C266 181, 280 154, 315 153 C335 181, 321 207, 287 213 Z" />
-              <circle class="tcs-ornament-dot" cx="136" cy="126" r="10" />
-            </svg>
-          </div>
+          <a class="tcs-hero-photo-credit" href="https://unsplash.com/photos/people-in-a-brightly-lit-arcade-at-night-20Q9nEePTnI">Photo by Luba Glazunova · Unsplash</a>
         </div>
     design:
       columns: '1'
