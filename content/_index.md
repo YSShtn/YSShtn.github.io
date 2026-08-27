@@ -16,7 +16,7 @@ sections:
         My research interests include **graph algorithms**, **streaming and sublinear algorithms**, **communication complexity**, and **extremal combinatorics**. I am particularly interested in how extremal structures in combinatorics relate to computational hardness, and how probabilistic methods can illuminate combinatorial phenomena and lead to efficient algorithms.
 
       button:
-        text: Curriculum Vitae · Updated Sep. 2026
+        text: Curriculum Vitae · Updated Aug. 2026
         url: /uploads/yu-sheng-shih-cv.pdf
       headings:
         about: 'About'
