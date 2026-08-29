@@ -1,6 +1,15 @@
 ---
 title: Recent & Upcoming Talks
 cms_exclude: true
+build:
+  list: never
+  publishResources: false
+  render: never
+cascade:
+  - build:
+      list: never
+      publishResources: false
+      render: never
 #url: talk
 
 # View

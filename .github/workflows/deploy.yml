@@ -1,8 +1,8 @@
 name: Deploy website to GitHub Pages
 
 env:
-  WC_HUGO_VERSION: '0.152.2'
-  NODE_VERSION: '20'
+  WC_HUGO_VERSION: '0.162.0'
+  NODE_VERSION: '24'
 
 on:
   # Trigger the workflow every time you push to the `main` branch
@@ -11,11 +11,10 @@ on:
   # Allows you to run this workflow manually from the Actions tab on GitHub
   workflow_dispatch:
 
-# Provide permission to clone the repo and deploy it to GitHub Pages
+# Default every job to read-only repository access. The deploy job grants its
+# additional Pages permissions explicitly below.
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 concurrency:
   group: 'pages'
@@ -28,48 +27,44 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
-      uses: actions/checkout@v4
+      uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
       with:
           # Fetch history for Hugo's .GitInfo and .Lastmod
         fetch-depth: 0
 
     - name: Setup Node.js
-      uses: actions/setup-node@v4
+      uses: actions/setup-node@820762786026740c76f36085b0efc47a31fe5020 # v7.0.0
       with:
         node-version: ${{ env.NODE_VERSION }}
-
-    - name: Setup pnpm
-      if: hashFiles('package.json') != ''
-      uses: pnpm/action-setup@v4
+        cache: npm
+        cache-dependency-path: package-lock.json
 
     - name: Install dependencies
       run: |
         # Install Tailwind CLI if package.json exists
         if [ -f "package.json" ]; then
           echo "Installing Tailwind dependencies..."
-          pnpm install || npm install
+          npm ci --ignore-scripts
         fi
 
     - name: Setup Hugo
-      uses: peaceiris/actions-hugo@v3
+      uses: peaceiris/actions-hugo@2752ce1d29631191ea3f27c23495fa06139a5b78 # v3.2.1
       with:
         hugo-version: ${{ env.WC_HUGO_VERSION }}
         extended: true
 
-      # Cache dependencies (Go modules, node_modules) - stable, rarely changes
-    - uses: actions/cache@v4
+      # Cache Hugo's downloaded modules. npm's own cache is configured above.
+    - uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
       with:
         path: |
           /tmp/hugo_cache_runner/
-          node_modules/
           modules/*/node_modules/
-        key: ${{ runner.os }}-hugo-deps-${{ hashFiles('**/go.mod', '**/package-lock.json',
-          '**/pnpm-lock.yaml') }}
+        key: ${{ runner.os }}-hugo-deps-${{ hashFiles('**/go.mod', '**/go.sum') }}
         restore-keys: |
           ${{ runner.os }}-hugo-deps-
 
       # Cache Hugo resources (processed images, CSS) - invalidates only when assets/config change
-    - uses: actions/cache@v4
+    - uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
       with:
         path: resources/
         key: ${{ runner.os }}-hugo-resources-${{ hashFiles('assets/**/*', 'config/**/*',
@@ -79,7 +74,7 @@ jobs:
 
     - name: Setup Pages
       id: pages
-      uses: actions/configure-pages@v5
+      uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
 
     - name: Build with Hugo
       env:
@@ -88,15 +83,8 @@ jobs:
         echo "Hugo Cache Dir: $(hugo config | grep cachedir)"
         hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
 
-    - name: Generate Pagefind search index (if applicable)
-      run: |
-        # Check if site uses Pagefind search
-        if [ -f "package.json" ] && grep -q "pagefind" package.json; then
-          pnpm dlx pagefind --source "public" || npx pagefind --source "public"
-        fi
-
     - name: Upload artifact
-      uses: actions/upload-pages-artifact@v4
+      uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
       with:
         path: ./public
 
@@ -116,4 +104,4 @@ jobs:
     steps:
     - name: Deploy to GitHub Pages
       id: deployment
-      uses: actions/deploy-pages@v4
+      uses: actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128 # v5.0.0

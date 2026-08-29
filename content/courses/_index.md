@@ -2,8 +2,16 @@
 title: Courses
 summary: My courses
 type: landing
+build:
+  list: never
+  publishResources: false
+  render: never
 
 cascade:
+  - build:
+      list: never
+      publishResources: false
+      render: never
   - target:
       path: '{/courses/*/**}'
     type: docs
