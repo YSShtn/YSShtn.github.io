@@ -34,19 +34,25 @@ profiles:
     label: E-mail Me
   - icon: brands/github
     url: https://github.com/YSShtn
-  #- icon: brands/linkedin
-    #url: https://www.linkedin.com/in/alexjohnsonai/
+  - icon: brands/linkedin
+    url: https://www.linkedin.com/in/yu-sheng-shih-aa1a9422b
+    label: LinkedIn
   #- icon: academicons/google-scholar
     #url: https://scholar.google.com/citations?user=alexjohnson
   - icon: academicons/orcid
     url: https://orcid.org/0009-0005-4826-0383
+  - icon: brands/instagram
+    url: https://www.instagram.com/s.y.s_revolilol/
+    label: Instagram
 
-interests:
-  - Graph Theory and Graph Algorithms
-  - Streaming and Sublinear Algorithms
-  - Communication Complexity
-  - Extremal and Probabilistic Combinatorics
-  - Combinatorial Optimization
+# Research-area tags on the homepage. Hidden for now: the homepage bio already
+# lists these areas in prose. Uncomment to show the tags again.
+# interests:
+#   - Graph Theory and Graph Algorithms
+#   - Streaming and Sublinear Algorithms
+#   - Communication Complexity
+#   - Extremal and Probabilistic Combinatorics
+#   - Combinatorial Optimization
 
 education:
   - area: M.S. in Computer Science and Information Engineering

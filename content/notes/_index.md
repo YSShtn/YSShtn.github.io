@@ -6,19 +6,28 @@ sections:
   - block: markdown
     content:
       text: |-
-        <div class="tcs-page-hero-grid tcs-notes-intro-grid">
-          <div class="tcs-page-intro">
+        <header class="tcs-page-head tcs-page-head--plate not-prose">
+          <div class="tcs-page-head-copy">
             <span class="tcs-section-kicker">Notes & Resources</span>
             <h1>Reading, talks, and useful links.</h1>
             <p>Materials from reading groups and talks, together with a small collection of tools and references for theoretical computer science and combinatorics.</p>
+            <nav class="tcs-page-toc" aria-label="On this page">
+              <a href="#reading-group">Reading group</a>
+              <a href="#notes-and-talks">Notes and talks</a>
+              <a href="#materials">Materials I keep</a>
+            </nav>
           </div>
-          <a class="tcs-hero-photo-credit" href="https://unsplash.com/photos/books-displayed-on-a-shelf-with-sunlight-and-shadows-zSbYax5t2Nw">Photo by Declan Sun · Unsplash</a>
-        </div>
+          <figure class="tcs-clipping">
+            <img src="/media/headers/xkcd-435-purity.png" width="740" height="308" alt="xkcd comic 'Purity': fields arranged by purity, with a mathematician standing far to the right">
+            <figcaption><a href="https://xkcd.com/435/">xkcd #435, <cite>Purity</cite></a> · Randall Munroe, <a href="https://creativecommons.org/licenses/by-nc/2.5/">CC BY-NC 2.5</a></figcaption>
+          </figure>
+        </header>
     design:
       columns: '1'
-      css_class: tcs-notes-hero
+      css_class: tcs-page-hero tcs-band--notebook
 
   - block: markdown
+    id: reading-group
     content:
       title: "Reading group"
       text: |-
@@ -47,6 +56,7 @@ sections:
       css_class: tcs-notes-reading
 
   - block: markdown
+    id: notes-and-talks
     content:
       title: "Notes and talks"
       text: |-
@@ -88,37 +98,26 @@ sections:
       css_class: tcs-notes-talks
 
   - block: markdown
+    id: materials
     content:
-      title: "Useful materials"
+      title: "Useful materials I want to keep"
       text: |-
-        <p class="tcs-resource-intro">A small collection of databases, software, and blogs for theoretical computer science and combinatorics.</p>
+        <p class="tcs-resource-intro">A few databases, tools, and blogs I want to keep track of, mostly for my own reference.</p>
         <div class="tcs-resource-directory">
           <section class="tcs-resource-group">
             <h3>References and databases</h3>
             <ul class="tcs-resource-list">
               <li>
-                <div><a href="https://www.complexityzoo.net/Complexity_Zoo">Complexity Zoo <span>↗</span></a><small>Complexity-class reference</small></div>
-                <p>A community-maintained encyclopedia of complexity classes. Its entries bring together definitions, complete problems, containments, oracle results, and references, forming a map of how the classes fit together.</p>
+                <div><a href="https://oeis.org/">The On-Line Encyclopedia of Integer Sequences <span>↗</span></a><small>OEIS</small></div>
+                <p>Look up a sequence of integers to find formulas, references, and related problems.</p>
               </li>
               <li>
-                <div><a href="https://eccc.weizmann.ac.il/eccc/">Electronic Colloquium on Computational Complexity <span>↗</span></a><small>ECCC</small></div>
-                <p>An open technical-report archive devoted to computational complexity, active since 1994. It collects papers, surveys, short notes, and their revisions as a focused record of work circulating in the field.</p>
+                <div><a href="https://www.complexityzoo.net/Complexity_Zoo">Complexity Zoo <span>↗</span></a><small>Complexity-class reference</small></div>
+                <p>Definitions and known relationships between complexity classes.</p>
               </li>
               <li>
                 <div><a href="https://www.graphclasses.org/">ISGCI <span>↗</span></a><small>Graph classes and inclusions</small></div>
-                <p>An encyclopedia of graph classes and their inclusion relations, paired with an interactive system. It connects this taxonomy to algorithms and complexity results, including diagrams coloured by the status of selected problems.</p>
-              </li>
-              <li>
-                <div><a href="https://houseofgraphs.org/">House of Graphs <span>↗</span></a><small>Searchable graph database</small></div>
-                <p>A curated database of graphs considered interesting for structural or extremal reasons. It combines searchable invariants and constraints with graph drawings, downloadable collections, and generators.</p>
-              </li>
-              <li>
-                <div><a href="https://www.findstat.org/">FindStat <span>↗</span></a><small>Combinatorial statistics</small></div>
-                <p>A collaborative database and search engine for combinatorial statistics and maps. Unlike a conventional reference table, it can match experimental data against known statistics and compositions through combinatorial bijections.</p>
-              </li>
-              <li>
-                <div><a href="https://oeis.org/">The On-Line Encyclopedia of Integer Sequences <span>↗</span></a><small>OEIS</small></div>
-                <p>A community-maintained encyclopedia built around integer sequences. Each entry gathers formulas, references, programs, transforms, and related sequences, often connecting counting problems from otherwise distant settings.</p>
+                <p>Graph classes, how they contain one another, and the complexity of standard problems on each.</p>
               </li>
             </ul>
           </section>
@@ -128,11 +127,7 @@ sections:
             <ul class="tcs-resource-list">
               <li>
                 <div><a href="https://doc.sagemath.org/html/en/reference/combinat/index.html">SageMath Combinatorics <span>↗</span></a><small>Computer algebra system</small></div>
-                <p>The combinatorics library of the open-source SageMath system. It provides a common interface for working with graphs, matroids, posets, partitions, tableaux, designs, and many other discrete objects.</p>
-              </li>
-              <li>
-                <div><a href="https://pallini.di.uniroma1.it/">nauty and Traces <span>↗</span></a><small>Brendan McKay and Adolfo Piperno</small></div>
-                <p>A long-established suite of programs for graph canonical labeling and automorphism-group computation. It also includes highly optimized utilities for generating large families of graphs without repetition.</p>
+                <p>Open-source tools for graphs, posets, partitions, and other discrete objects.</p>
               </li>
             </ul>
           </section>
@@ -142,23 +137,15 @@ sections:
             <ul class="tcs-resource-list">
               <li>
                 <div><a href="https://terrytao.wordpress.com/">What's new <span>↗</span></a><small>Terence Tao</small></div>
-                <p>Terence Tao's research blog, spanning combinatorics, probability, analysis, number theory, and developments in mathematical practice. Posts often expose the strategy, false starts, and open questions around a result rather than presenting only its finished form.</p>
+                <p>Terence Tao's research blog.</p>
               </li>
               <li>
-                <div><a href="https://11011110.github.io/blog/">11011110 <span>↗</span></a><small>David Eppstein</small></div>
-                <p>A frequently updated collection of short pieces on graphs, algorithms, geometry, and discrete mathematics. Eppstein has a particular talent for finding a concrete construction or visual explanation that makes an unfamiliar problem immediately interesting.</p>
-              </li>
-              <li>
-                <div><a href="https://gilkalai.wordpress.com/">Combinatorics and more <span>↗</span></a><small>Gil Kalai</small></div>
-                <p>Gil Kalai's wide-ranging mathematical blog, centred on combinatorics but regularly extending into geometry, probability, optimization, and theoretical CS. New results usually appear together with the conjectures, people, and earlier ideas surrounding them.</p>
-              </li>
-              <li>
-                <div><a href="https://www.jeremykun.com/">Math ∩ Programming <span>↗</span></a><small>Jeremy Kun</small></div>
-                <p>An expository site connecting mathematics with algorithms and working code. Its longer tutorials make topics such as random graphs, optimization, cryptography, and probability approachable without flattening the underlying ideas.</p>
+                <div><a href="https://blog.computationalcomplexity.org/">Computational Complexity <span>↗</span></a><small>Lance Fortnow and Bill Gasarch</small></div>
+                <p>A long-running blog on complexity theory and life in theoretical computer science.</p>
               </li>
               <li>
                 <div><a href="https://www.quantamagazine.org/">Quanta Magazine <span>↗</span></a><small>Mathematics and computer science</small></div>
-                <p>An editorially independent science magazine covering major developments in mathematics, theoretical computer science, physics, and biology. Its mathematics and CS features are especially good at reconstructing the problem, central idea, and research story behind a breakthrough.</p>
+                <p>Accessible articles on recent results in mathematics and theoretical computer science.</p>
               </li>
               <li>
                 <div><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Whenever You Need a Fixed Point <span>↗</span></a><small>A multimedia essay on persistence and invariance</small></div>

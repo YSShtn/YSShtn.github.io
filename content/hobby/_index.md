@@ -6,19 +6,26 @@ sections:
   - block: markdown
     content:
       text: |-
-        <div class="tcs-page-hero-grid tcs-hobby-intro-grid">
-          <div class="tcs-page-intro tcs-page-intro--personal">
+        <header class="tcs-page-head not-prose">
+          <div class="tcs-page-head-copy">
             <span class="tcs-section-kicker">Outside research</span>
             <h1>Things I enjoy.</h1>
             <p>Anime, music, games, and a few activities that give me a reason to step away from the desk.</p>
+            <nav class="tcs-page-toc" aria-label="On this page">
+              <a href="#anime">Anime</a>
+              <a href="#music">JPOP & live music</a>
+              <a href="#concerts">Concerts</a>
+              <a href="#games">Games and more</a>
+            </nav>
           </div>
-          <a class="tcs-hero-photo-credit" href="https://unsplash.com/photos/people-in-a-brightly-lit-arcade-at-night-20Q9nEePTnI">Photo by Luba Glazunova · Unsplash</a>
-        </div>
+        </header>
+        <p class="tcs-band-credit">Background: a hololive-wrapped Fujikyu bus · Photo by 江戸前鰻, <a href="https://commons.wikimedia.org/wiki/File:Fuji-Q_Bus_F3802_hololive.jpeg">CC BY 4.0</a></p>
     design:
       columns: '1'
-      css_class: tcs-hobby-hero
+      css_class: tcs-page-hero tcs-band tcs-band--hobby
 
   - block: markdown
+    id: anime
     content:
       title: "Anime"
       text: |-
@@ -36,6 +43,7 @@ sections:
       css_class: tcs-hobby-feature tcs-hobby-anime
 
   - block: markdown
+    id: music
     content:
       title: "JPOP & live music"
       text: |-
@@ -55,7 +63,7 @@ sections:
           <circle cx="247" cy="36" r="4" /><circle cx="492" cy="43" r="4" /><circle cx="744" cy="31" r="4" />
         </svg>
 
-        <div class="tcs-concert-heading">
+        <div class="tcs-concert-heading" id="concerts">
           <span>Live archive</span>
           <h3>Concerts I’ve attended</h3>
         </div>
@@ -144,33 +152,40 @@ sections:
       css_class: tcs-hobby-feature tcs-hobby-music
 
   - block: markdown
+    id: games
     content:
       title: "Games, movement, and more"
       text: |-
         <div class="tcs-hobby-grid">
           <article>
-            <svg class="tcs-hobby-card-ornament" viewBox="0 0 80 80" aria-hidden="true">
-              <rect x="18" y="8" width="44" height="64" rx="7" />
-              <circle cx="31" cy="27" r="4" /><circle cx="49" cy="27" r="4" /><circle cx="31" cy="43" r="4" /><circle cx="49" cy="43" r="4" />
-              <path d="M28 60 H52" />
+            <svg class="tcs-hobby-card-ornament" viewBox="0 0 80 64" aria-hidden="true">
+              <rect x="8" y="10" width="28" height="40" rx="4" /><path d="M10 54 H34" />
+              <text x="22" y="39" text-anchor="middle">中</text>
+              <rect x="44" y="10" width="28" height="40" rx="4" /><path d="M46 54 H70" />
+              <circle cx="58" cy="30" r="9" /><circle cx="58" cy="30" r="3.5" />
             </svg>
             <span>01 · Mahjong</span>
             <h3>Riichi and Taiwanese mahjong</h3>
             <p>I can play both Japanese riichi mahjong and Taiwanese mahjong. I usually play <em>雀魂</em> (<em>Mahjong Soul</em>) on mobile, although I am still a beginner. I would love to find more people to play with, whether online or around a table.</p>
           </article>
           <article>
-            <svg class="tcs-hobby-card-ornament" viewBox="0 0 80 80" aria-hidden="true">
-              <path d="M40 8 L65 22 V50 L40 64 L15 50 V22 Z M15 22 L40 37 L65 22 M40 37 V64" />
-              <circle cx="40" cy="22" r="3" /><circle cx="28" cy="45" r="3" /><circle cx="53" cy="45" r="3" />
+            <svg class="tcs-hobby-card-ornament" viewBox="0 0 80 64" aria-hidden="true">
+              <path d="M40 3 V8 M26 26 L40 8 L54 26" />
+              <path d="M28 60 V26 H52 V60 Z" />
+              <circle cx="40" cy="37" r="7" /><path d="M40 37 V32.5 M40 37 L43.5 39" />
+              <path d="M36 60 V53 A4 4 0 0 1 44 53 V60" />
+              <path d="M20 60 H60" />
             </svg>
             <span>02 · Social games</span>
             <h3>Board games</h3>
             <p>I enjoy many kinds of board games, and recently I have been especially interested in <a href="https://wiki.bloodontheclocktower.com/Main_Page">Blood on the Clocktower</a>. I am always happy to find a group and play together.</p>
           </article>
           <article>
-            <svg class="tcs-hobby-card-ornament" viewBox="0 0 80 80" aria-hidden="true">
-              <circle cx="59" cy="19" r="8" />
-              <path d="M8 61 L28 34 L40 48 L52 29 L72 61 Z M24 61 C31 53, 38 55, 42 61" />
+            <svg class="tcs-hobby-card-ornament" viewBox="0 0 80 64" aria-hidden="true">
+              <circle cx="20" cy="44" r="13" /><circle cx="60" cy="44" r="13" />
+              <path d="M20 44 L37 44 L31 22 M37 44 L54 24 L60 44 M31 22 L54 24" />
+              <path d="M26 21 H36 M54 24 L52 15 H59" />
+              <circle cx="37" cy="44" r="2.5" />
             </svg>
             <span>03 · Outdoors</span>
             <h3>Sports</h3>

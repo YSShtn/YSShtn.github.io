@@ -6,17 +6,17 @@ sections:
   - block: markdown
     content:
       text: |-
-        <div class="tcs-page-hero-grid tcs-others-intro-grid">
-          <div class="tcs-page-intro tcs-page-intro--personal">
+        <header class="tcs-page-head not-prose">
+          <div class="tcs-page-head-copy">
             <span class="tcs-section-kicker">Others</span>
             <h1>A little corner for everything else.</h1>
             <p>Recent thoughts, short notes, personal records, or anything that does not quite fit into the other pages.</p>
           </div>
-          <a class="tcs-hero-photo-credit" href="https://unsplash.com/photos/person-walking-a-dog-on-a-path-in-a-park-ATlBdNZKkvo">Photo by Philipp Hubert · Unsplash</a>
-        </div>
+        </header>
+        <p class="tcs-band-credit">2025 貓界頂流：Huh 貓、旋轉貓、啊呃貓、質問貓、委屈貓、Happy 貓、聽泉貓、Pop 貓、嚴肅貓、老吳貓、吃飯貓 · 畫面取自 <a href="https://www.facebook.com/watch/?v=652929127632571">Queena Cat 的影片</a></p>
     design:
       columns: '1'
-      css_class: tcs-others-hero
+      css_class: tcs-page-hero tcs-band tcs-band--cats
 
   - block: markdown
     content:

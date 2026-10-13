@@ -2,6 +2,11 @@
 title: 'Experience'
 type: landing
 
+# Not published: this duplicates the CV PDF and was never linked from the menu.
+build:
+  list: never
+  render: never
+
 design:
   spacing: '5rem'
 

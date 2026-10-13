@@ -10,6 +10,9 @@ main:
   - name: "Research"
     url: "/research/"
     weight: 20
+  - name: "CV"
+    url: "/uploads/yu-sheng-shih-cv.pdf"
+    weight: 25
   - name: "Notes & Resources"
     url: "/notes/"
     weight: 30

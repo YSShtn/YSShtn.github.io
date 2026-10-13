@@ -40,7 +40,7 @@ header:
 # Site footer
 footer:
   copyright:
-    notice: '© {year} Yu-Sheng Shih'
+    notice: '© {year} Yu-Sheng Shih · Site design and code built with help from Claude and ChatGPT.'
     license:
       enable: false
       allow_derivatives: false
