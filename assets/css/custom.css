@@ -1686,6 +1686,24 @@ button:focus-visible {
   line-height: 1.65;
 }
 
+.tcs-notebook-entry {
+  margin-top: 1.35rem;
+  padding-top: 1.1rem;
+  border-top: 1px solid var(--tcs-line);
+}
+
+.tcs-notebook-entry h4 {
+  margin: 0.5rem 0 0;
+  color: var(--tcs-ink);
+  font-size: 1.05rem;
+  line-height: 1.4;
+}
+
+.tcs-notebook-entry h4 a {
+  color: inherit;
+  text-decoration: none;
+}
+
 .tcs-talk-list {
   margin: 0;
   border-top: 2px solid var(--tcs-ink);
@@ -1699,7 +1717,8 @@ button:focus-visible {
   border-bottom: 1px solid var(--tcs-line);
 }
 
-.tcs-talk-list time {
+.tcs-talk-list time,
+.tcs-notebook-entry time {
   color: var(--tcs-code);
   font-family: var(--tcs-mono);
   font-size: 0.72rem;
@@ -1720,14 +1739,16 @@ button:focus-visible {
   line-height: 1.65;
 }
 
-.tcs-talk-list nav {
+.tcs-talk-list nav,
+.tcs-notebook-entry nav {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
   margin-top: 0.85rem;
 }
 
-.tcs-talk-list nav a {
+.tcs-talk-list nav a,
+.tcs-notebook-entry nav a {
   color: var(--tcs-accent);
   font-family: var(--tcs-mono);
   font-size: 0.72rem;

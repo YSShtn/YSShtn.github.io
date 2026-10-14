@@ -62,24 +62,21 @@ sections:
       text: |-
         <p class="tcs-notes-intro">The notes and slides collected here are materials I prepared for classes, reading groups, and research talks. I am sharing them in case they are useful to someone approaching the same topics.</p>
         <div class="tcs-notes-grid">
-          <section class="tcs-study-note">
+          <section class="tcs-study-note" id="working-notebook">
             <span>Study notes</span>
             <h3>Working notebook</h3>
             <p>A space for me to collect interesting things I study and keep notes that may be useful later.</p>
+            <article class="tcs-notebook-entry">
+              <time datetime="2026-10-14">2026.10.14</time>
+              <h4><a href="/notes/first-moment-obstructions/">First Moment Obstructions</a></h4>
+              <p>Lecture notes from Huy Tuan Pham's IMS–NUS lectures, prepared from Ying-Sien Wu's handwritten notes.</p>
+              <nav aria-label="Links for First Moment Obstructions">
+                <a href="/uploads/first-moment-obstructions.pdf">PDF ↓</a>
+                <a href="https://github.com/YSShtn/first-moment-obstructions">LaTeX source ↗</a>
+              </nav>
+            </article>
           </section>
           <section class="tcs-talk-list">
-            <article>
-              <time datetime="2026-10-14">2026.10.14</time>
-              <div>
-                <h3>First Moment Obstructions in Extremal, Probabilistic and Additive Combinatorics</h3>
-                <p>Lecture notes on thresholds, the Park–Pham theorem, spread measures, and random Cayley graphs. Based on Huy Tuan Pham's IMS–NUS lectures, prepared from handwritten lecture notes taken by Ying-Sien Wu.</p>
-                <nav aria-label="Links for First Moment Obstructions">
-                  <a href="/notes/first-moment-obstructions/">About the notes ↗</a>
-                  <a href="/uploads/first-moment-obstructions.pdf">Notes (PDF) ↓</a>
-                  <a href="https://github.com/YSShtn/first-moment-obstructions">LaTeX source ↗</a>
-                </nav>
-              </div>
-            </article>
             <article>
               <time datetime="2025-10-02">2025.10.02</time>
               <div>

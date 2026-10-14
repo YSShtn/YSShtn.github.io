@@ -39,7 +39,7 @@ sections:
 
         The prerequisites are discrete probability and elementary graph theory. An appendix collects the probabilistic and analytic tools used in the text.
 
-        [Read the PDF](/uploads/first-moment-obstructions.pdf) · [Browse the LaTeX project](https://github.com/YSShtn/first-moment-obstructions) · [Back to Notes & Resources](/notes/#notes-and-talks)
+        [Read the PDF](/uploads/first-moment-obstructions.pdf) · [Browse the LaTeX project](https://github.com/YSShtn/first-moment-obstructions) · [Back to Working notebook](/notes/#working-notebook)
     design:
       columns: '1'
 ---
