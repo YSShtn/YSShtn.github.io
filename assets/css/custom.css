@@ -1735,6 +1735,41 @@ button:focus-visible {
   text-decoration: none;
 }
 
+.tcs-talk-card .tcs-talk-list {
+  margin-top: 1.1rem;
+  border-top: 1px solid var(--tcs-line);
+}
+
+.tcs-talk-card {
+  align-self: stretch;
+}
+
+.tcs-talk-card .tcs-talk-list article:last-child {
+  padding-bottom: 0;
+  border-bottom: 0;
+}
+
+.tcs-talk-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.35rem 0.75rem;
+}
+
+.tcs-talk-kind {
+  color: var(--tcs-muted);
+  font-family: var(--tcs-mono);
+  font-size: 0.64rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.tcs-talk-card-more {
+  display: inline-block;
+  margin-top: 1.35rem;
+}
+
 .tcs-notes-intro,
 .tcs-resource-intro {
   max-width: 52rem;
@@ -2401,12 +2436,16 @@ button:focus-visible {
   }
 
   .tcs-notes-grid {
-    grid-template-columns: minmax(12rem, 0.62fr) minmax(0, 1.38fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .tcs-talk-list article {
     grid-template-columns: 7rem minmax(0, 1fr);
     gap: 1.5rem;
+  }
+
+  .tcs-talk-meta {
+    flex-direction: column;
   }
 
   .tcs-hobby-split {

@@ -47,6 +47,10 @@ sections:
                 <span>Spring 2026</span>
                 <p>We studied combinatorial optimization—focusing on polyhedra, matroids, and submodularity—with Chandra Chekuri's CS 586 course notes as our main reference.</p>
               </li>
+              <li>
+                <span>Fall 2026</span>
+                <p>We are studying pseudorandomness—how expander graphs, list-decodable codes, randomness extractors, samplers, and pseudorandom generators are closely related—following Salil Vadhan's survey <em>Pseudorandomness</em>.</p>
+              </li>
             </ol>
             <a class="tcs-inline-link" href="https://sites.google.com/view/ntu-tcs-study-group/home">Visit the group website ↗</a>
           </div>
@@ -62,36 +66,109 @@ sections:
       text: |-
         <p class="tcs-notes-intro">The notes and slides collected here are materials I prepared for classes, reading groups, and research talks. I am sharing them in case they are useful to someone approaching the same topics.</p>
         <div class="tcs-notes-grid">
-          <section class="tcs-study-note" id="working-notebook">
+          <section class="tcs-study-note tcs-talk-card" id="working-notebook">
             <span>Study notes</span>
-            <h3><a href="/notes/working-notebook/">Working notebook</a></h3>
+            <h3>Working notebook</h3>
             <p>A space for me to collect interesting things I study and keep notes that may be useful later.</p>
-            <p><a class="tcs-inline-link" href="/notes/working-notebook/">Open notebook →</a></p>
+            <div class="tcs-talk-list">
+              <article>
+                <time datetime="2026-10-14">2026.10.14</time>
+                <div>
+                  <h3>First Moment Obstructions in Extremal, Probabilistic and Additive Combinatorics</h3>
+                  <p>Lecture notes based on Huy Tuan Pham's IMS–NUS lectures, prepared from handwritten lecture notes taken by Ying-Sien Wu.</p>
+                  <nav aria-label="Links for First Moment Obstructions">
+                    <a href="/uploads/first-moment-obstructions.pdf">PDF ↓</a>
+                  </nav>
+                </div>
+              </article>
+              <article>
+                <time datetime="2026-10-14">2026.10.14</time>
+                <div>
+                  <h3>Communication Complexity</h3>
+                  <p>Lecture notes adapted from my notes for Hsueh-I Lu's <em>Communication Complexity</em> course at National Taiwan University, Spring 2026.</p>
+                  <nav aria-label="Links for Communication Complexity">
+                    <a href="/uploads/communication-complexity.pdf">PDF ↓</a>
+                  </nav>
+                </div>
+              </article>
+            </div>
+            <a class="tcs-inline-link tcs-talk-card-more" href="/notes/working-notebook/">Open notebook →</a>
           </section>
-          <section class="tcs-talk-list">
-            <article>
-              <time datetime="2025-10-02">2025.10.02</time>
-              <div>
-                <h3>From sublinear expander graphs to cycle decompositions</h3>
-                <p>A presentation for NCTS after the PCMI Graduate Summer School, based on Matija Bucić's lecture on sublinear expanders.</p>
-                <nav aria-label="Links for From sublinear expander graphs to cycle decompositions">
-                  <a href="https://ncts.ntu.edu.tw/events_2_detail.php?nid=534">NCTS ↗</a>
-                  <a href="/uploads/PCMI_talk.pdf">Slides ↓</a>
-                  <a href="https://sites.google.com/princeton.edu/matija-bucic/home?authuser=0">Original notes ↗</a>
-                </nav>
-              </div>
-            </article>
-            <article>
-              <time datetime="2023-10-27">2023.10.27</time>
-              <div>
-                <h3>Advanced Topics in Combinatorics</h3>
-                <p>A class presentation on Maria Axenovich's paper <em>A class of graphs of zero Turán density in a hypercube</em>.</p>
-                <nav aria-label="Links for Advanced Topics in Combinatorics">
-                  <a href="https://arxiv.org/abs/2308.11366">Paper ↗</a>
-                  <a href="/uploads/Graphs_of_zero_Tur´an_density_in_a_hypercube.pdf">Slides ↓</a>
-                </nav>
-              </div>
-            </article>
+          <section class="tcs-study-note tcs-talk-card" id="talks">
+            <span>Slides and handouts</span>
+            <h3>Presentations</h3>
+            <p>Talks I have given for which I kept slides or notes.</p>
+            <div class="tcs-talk-list">
+              <article>
+                <div class="tcs-talk-meta">
+                  <time datetime="2026-06-01">2026.06.01</time>
+                  <span class="tcs-talk-kind">Reading group</span>
+                </div>
+                <div>
+                  <h3>Submodular Flows and Applications</h3>
+                  <p>Notes for a Spring 2026 reading group session on the Edmonds–Giles theorem and its applications to polymatroid intersection, Nash-Williams' orientation theorem, and the Lucchesi–Younger theorem.</p>
+                  <nav aria-label="Links for Submodular Flows and Applications">
+                    <a href="/uploads/submodular-flows.pdf">Notes ↓</a>
+                  </nav>
+                </div>
+              </article>
+              <article>
+                <div class="tcs-talk-meta">
+                  <time datetime="2026-03-16">2026.03.16</time>
+                  <span class="tcs-talk-kind">Reading group</span>
+                </div>
+                <div>
+                  <h3>Overview and Matroid Basics</h3>
+                  <p>Notes for the opening session of the Spring 2026 reading group, covering the plan for the semester and basic matroid theory.</p>
+                  <nav aria-label="Links for Overview and Matroid Basics">
+                    <a href="/uploads/matroid-basics.pdf">Notes ↓</a>
+                  </nav>
+                </div>
+              </article>
+              <article>
+                <div class="tcs-talk-meta">
+                  <time datetime="2025-10-02">2025.10.02</time>
+                  <span class="tcs-talk-kind">Seminar</span>
+                </div>
+                <div>
+                  <h3>From sublinear expander graphs to cycle decompositions</h3>
+                  <p>A presentation for NCTS after the PCMI Graduate Summer School, based on Matija Bucić's lecture on sublinear expanders.</p>
+                  <nav aria-label="Links for From sublinear expander graphs to cycle decompositions">
+                    <a href="https://ncts.ntu.edu.tw/events_2_detail.php?nid=534">NCTS ↗</a>
+                    <a href="/uploads/PCMI_talk.pdf">Slides ↓</a>
+                    <a href="https://sites.google.com/princeton.edu/matija-bucic/home?authuser=0">Original notes ↗</a>
+                  </nav>
+                </div>
+              </article>
+              <article>
+                <div class="tcs-talk-meta">
+                  <time datetime="2024-05-06">2024.05.06</time>
+                  <span class="tcs-talk-kind">Course</span>
+                </div>
+                <div>
+                  <h3>Braid Moves in Commutation Classes of the Symmetric Group</h3>
+                  <p>A presentation of the paper by Schilling, Thiéry, White, and Williams, given jointly with Po-Hsiang Hsu as a final presentation for <em>Topics in Combinatorics</em>.</p>
+                  <nav aria-label="Links for Braid Moves in Commutation Classes of the Symmetric Group">
+                    <a href="https://arxiv.org/abs/1507.00656">Paper ↗</a>
+                    <a href="/uploads/braid-moves.pdf">Slides ↓</a>
+                  </nav>
+                </div>
+              </article>
+              <article>
+                <div class="tcs-talk-meta">
+                  <time datetime="2023-10-27">2023.10.27</time>
+                  <span class="tcs-talk-kind">Course</span>
+                </div>
+                <div>
+                  <h3>A class of graphs of zero Turán density in a hypercube</h3>
+                  <p>A presentation of Maria Axenovich's paper, given in the course <em>Advanced Topics in Combinatorics</em>.</p>
+                  <nav aria-label="Links for A class of graphs of zero Turán density in a hypercube">
+                    <a href="https://arxiv.org/abs/2308.11366">Paper ↗</a>
+                    <a href="/uploads/Graphs_of_zero_Tur´an_density_in_a_hypercube.pdf">Slides ↓</a>
+                  </nav>
+                </div>
+              </article>
+            </div>
           </section>
         </div>
     design:
