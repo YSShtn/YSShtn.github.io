@@ -14,6 +14,7 @@ sections:
             <h1>First Moment Obstructions in Extremal, Probabilistic and Additive Combinatorics</h1>
             <p>How good is the first moment method at predicting thresholds of random structures?</p>
             <nav class="tcs-page-toc" aria-label="Downloads and source">
+              <a href="/notes/working-notebook/">Back to Working notebook</a>
               <a href="/uploads/first-moment-obstructions.pdf">Read the notes (PDF) ↓</a>
               <a href="https://github.com/YSShtn/first-moment-obstructions">LaTeX source on GitHub ↗</a>
             </nav>
@@ -39,7 +40,7 @@ sections:
 
         The prerequisites are discrete probability and elementary graph theory. An appendix collects the probabilistic and analytic tools used in the text.
 
-        [Read the PDF](/uploads/first-moment-obstructions.pdf) · [Browse the LaTeX project](https://github.com/YSShtn/first-moment-obstructions) · [Back to Working notebook](/notes/#working-notebook)
+        [Read the PDF](/uploads/first-moment-obstructions.pdf) · [Browse the LaTeX project](https://github.com/YSShtn/first-moment-obstructions) · [Back to Working notebook](/notes/working-notebook/)
     design:
       columns: '1'
 ---
